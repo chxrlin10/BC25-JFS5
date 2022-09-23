@@ -1,0 +1,95 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    font-family:'Arial', sans-serif;
+    margin: 0; 
+}
+
+.my-button {
+    background-color: rgb(140, 105, 172);
+    border: none;
+    color: white;
+    /* primeiro padding mexe com a vertical e o segundo horizontal*/
+    padding: 16px 20px;
+    /* o mesmo vale para a margem do butão*/
+    margin: 6px 4px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+/*Quando passar o mouse em cima do elemento altera a cor */
+.my-button:hover {
+    background-color: rgb(59, 59, 163);
+}
+
+.my-table {
+    width: 400px;
+    border-collapse: collapse ;
+    margin: auto ;
+    border-color: brown;
+}
+
+/* estiliza o Td e o Th dentro da minha classe my-table */
+
+.my-table td , .my-table th {
+    border: 1px solid #ddd;
+    padding:8px ;
+}
+
+.my-table th {
+    background-color: cornflowerblue;
+    padding: 12px 0;
+    color: white;
+}
+
+.my-table tr:hover {
+    background-color: #ddd;
+}
+
+/*even = par odd= impar */
+/*aplica-se even para zebrar a linhas da tabela par*/
+.my-table tr:nth-child(even) {
+    background-color: rgb(231, 231, 231);
+}
+
+.my-table td {
+    text-align: center;
+}
+
+.h3-tabela {
+    text-align: center;
+    color: rgb(98, 161, 98);
+}
+
+/* Para estilizar o Formulário */
+
+.my-form {
+    border-radius: 6px;
+    background-color: #f2f2f2;
+    padding: 20px 16px;
+    width: 300px;
+    margin: auto;
+}
+
+.my-form input {
+    width: 100%;
+    padding: 12px 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+} 
+
+.toda-largura {
+    width: 100%;
+    margin: 6px 0;
+}
+
+.my-form-group {
+    margin-bottom: 6px;
+}
+
+.h3-formulário {
+    text-align: center;
+    color: rgb(98, 161, 98);
+}

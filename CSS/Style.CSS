@@ -16,8 +16,7 @@ h3 {
 
 .box3 {
     background-color: brown;
-    /*essura estilo cor */
-    /* ex: dashed, dotted, solid */
+    /*espessura estilo cor */
     border: 2px solid yellow;
     border-radius: 8px;
     padding: 10PX;
